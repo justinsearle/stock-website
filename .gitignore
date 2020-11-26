@@ -1,1 +1,5 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+#See http://help.github.com/ignore-files/ for more about ignoring files.
+
+#Most directories and files are ignored in their individual folder .gitignore file
+
+#Ignore additional files below

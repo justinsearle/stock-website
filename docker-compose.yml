@@ -1,0 +1,13 @@
+#This docker file was created 11/26/2020 by Justin Searle.
+#This compose file will be used to run a multi container project using the two images listed below.
+#One image will use NodeJS to run our AngularJS app that will be used as the front end interface for the stocks web app project.
+#The other image will use Python 3 to run our Flask/Connexion and MongoDB Web API that will be used as the backend interface for the stocks web app project.
+
+#Define the version of docker compose to use
+version: '3.4'
+
+services:
+  device-registry:
+    build:
+    volumes:
+      - .:/usr/src/appcd 

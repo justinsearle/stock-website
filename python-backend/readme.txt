@@ -2,7 +2,7 @@ Links:
 https://www.youtube.com/watch?v=QjtW-wnXlUY
 https://pypi.org/project/pipenv/
 
-Guide to basic python server with Flask to manage project dependencies
+Guide to basic python server with Flask to manage project dependencies from scratch
 1. Install Python
 2. Use CMD editor:
 - check python version > 3.6.x with: python --version
@@ -28,3 +28,7 @@ env\Scripts\activate
 set FLASK_APP="app.py"
 flask run
 7. Should see in console http://127.0.0.1:5000/, type this in browser to see 'Hello'
+
+Done!
+8. Also install: pip install connexion
+- Used for API endpoint functionality in python
