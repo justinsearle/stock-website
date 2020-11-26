@@ -6,8 +6,6 @@ FROM python:3.8
 
 #Set container working directory
 WORKDIR /usr/src/app
-RUN mkdir -p /user/src/app/python-backend
-WORKDIR /usr/src/app/python-backend
 
 #Copy development environment install requirement package files into container environment working directory
 # COPY . .
