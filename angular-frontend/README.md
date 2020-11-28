@@ -33,4 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## npm install @angular/cli
 ## ng serve
 ## docker build --tag stonksfront:1.0 .
-## docker run -d -p 8000:8000 --name stonks stonksfront:1.0
+## docker run -d -p 4200:4200 --name stonks stonksfront:1.0
